@@ -5,7 +5,7 @@ I do still
 - adding MySQL support
 
 - changed "License" option
-
+- altered code from $gScriptMain removed.
 
 2002/10/21-12:20:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.5.0-CVS)
 

@@ -215,26 +215,4 @@ if ($Content == ListAllUserInclude)
                  print "</table>\n";
                  print "$entrybck";
 		}
-/* if ($pUser == "\%")
-		{
-			print '<table border="0" cellpadding="0" cellspacing="4">';
-            print '<tr><td>username</td><td>real name</td><td>email adress</td><td colspan="2">options</td></tr>';
-			$d = dir("$gProfilesDirectory");
-			$dir = getcwd();
-
-			while($entry=$d->read()) 
-				{
-                 include_once ("$gProfilesDirectory/$entry");
-   			        $entry3 = explode( ".", $entry );
-					if (!empty ($entry3[1]))
-						{
-
-							print "\n\t<tr>\n\t\t<td>$ProfileUsername</td>\n\t\t<td>$ProfileName</td>\n\t\t<td>$ProfileEmail</td>\n\t\t<td>\n\t\t\t<a href=\"$gScriptMain?pUser=$ProfileUsername\" target=\"_parent\"><SMALL>show</SMALL></a>\n\t\t</td>\n\t\t<td>\n\t\t\t<A HREF=\"$gScriptUserEditor\"><SMALL>edit</SMALL></A>\n\t\t</td>\n\t</tr>\n";
-                            print "<tr><td colspan=\"3\">$entrybck</td></tr>";
-						}
-				}
-			$d->close(); 
-                 print "</table>\n";
-		}
-*/	
 ?>
