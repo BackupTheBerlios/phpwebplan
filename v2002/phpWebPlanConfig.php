@@ -79,7 +79,7 @@ $uRegMessage = "\n$uTextThanks $uRegDomain.\n$uTextUser \"$NewUser\".\n$uTextPas
 $gThemesPath = "themes";
 $gThemesList = "Default"; 				// List Array, still not used =)
 $gThemesNow = "Default";
-$gThemesPathFull = "themes/$gThemesNow";
+$gThemesPathFull = "$gThemesPath/$gThemesNow";
 
 // Includes
 $incPath = "include";

@@ -46,9 +46,11 @@ $uTextUser = "Your Username is";
 $uTextPassword = "And your password is";
 $uTextEditNotFound = "User to edit was not found.";
 $uTextWrong = "May your Username/Password is wrong or editing this User is forbidden.";
+$uTextReject = "This user have not the permission to change his/her profile.";
 $uTextBooBoo = "ooopss ... something goes wrong. ;(";
 $uTextEditYes = "Yes, normally you can edit this.";
 $uTextForm = "form"; // strange entry, I've look what it is :)
+$gUserConfValid = "&nbsp;(valid are \"yes\" or \"no\")&nbsp;";
 
 
 // User Signup
@@ -106,9 +108,6 @@ $gUserConfImage = "<B>User Picture</B>";
 $gUserConfActive = "<B>Profile Active?</B>";
 $gUserConfEditActive = "<B>Profile Edit?</B>";
 $gUserConfPassword = "<B>Password</B>";
-$gUserConfCity = "City";
-$gUserConfState = "State";
-$gUserConfCountry = "Country";
 
 
 // Error message (Missing File)
