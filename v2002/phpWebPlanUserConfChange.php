@@ -19,7 +19,7 @@ if ($gUseDB == "0")
 			require_once ("$EditPlan");
 
 	                // if configchange(1), User(true), password(true) and EditActive(yes) then change user data.
-			if (($configchange == "1") && ($ChangeUser == $ProfileUsername) && ($EditPassword == "$ProfileEditPassword") && ($ProfileEditActive == "yes"))
+			if (($configchange == "1") && ($ChangeUser == $ProfileUsername) && ($EditPassword == "$ProfileEditPassword") && ($ProfileEditActive == "1"))
 				{
 					                print "$gHeader";
 					                print "$gBody<BR><BR>";

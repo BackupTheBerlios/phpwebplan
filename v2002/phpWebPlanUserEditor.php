@@ -59,16 +59,14 @@ elseif ($ProfileEditActive == 0)
 	{ 
 		print " selected>No</option></select></td>\n</tr>";
 	} 
-//print ">Yes</option><option value=\"0\""; 
-//print ">No</option></select></td>\n</tr>";
-							print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfUsername&nbsp;</td>\n <td>&nbsp;$EditUser&nbsp;</td>\n</tr>\n";
-							print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfFullname&nbsp;</td>\n <td><input name=\"ProfileFullName1\" size=\"50\" value=\"$ProfileFullName\"".$noedit."></td>\n</tr>\n";
-					                print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfEmail&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileEmail1\" size=\"50\" value=\"$ProfileEmail\"".$noedit."></td>\n</tr>\n";
-					                print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfHome&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileHomepage1\" size=\"50\" value=\"$ProfileHomepage\"".$noedit."></td>\n</tr>\n";
-					                print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfHobbies&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileHobbies1\" size=\"80\" value=\"$ProfileHobbies\"".$noedit."></td>\n</tr>\n"; 
-					                print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfImage&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileImage1\" size=\"50\" value=\"$ProfileImage\"".$noedit."></td>\n</tr>\n"; 
-					                print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfPassword&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileEditPassword1\" size=\"30\" value=\"$ProfileEditPassword\" STYLE=\"bgcolor:$gConfBGInterface;\"".$noedit."></td>\n</tr>\n";
-					                print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\" align=\"center\" colspan=\"2\"><input type=\"image\" src=\"images/submit.gif\" BORDER=\"0\"></td>\n</tr>\n</table></TD></TR></TABLE></form>\n";
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfUsername&nbsp;</td>\n <td>&nbsp;$EditUser&nbsp;</td>\n</tr>\n";
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfFullname&nbsp;</td>\n <td><input name=\"ProfileFullName1\" size=\"50\" value=\"$ProfileFullName\"".$noedit."></td>\n</tr>\n";
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfEmail&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileEmail1\" size=\"50\" value=\"$ProfileEmail\"".$noedit."></td>\n</tr>\n";
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfHome&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileHomepage1\" size=\"50\" value=\"$ProfileHomepage\"".$noedit."></td>\n</tr>\n";
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfHobbies&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileHobbies1\" size=\"80\" value=\"$ProfileHobbies\"".$noedit."></td>\n</tr>\n"; 
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfImage&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileImage1\" size=\"50\" value=\"$ProfileImage\"".$noedit."></td>\n</tr>\n"; 
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\">&nbsp;$gUserConfPassword&nbsp;</td>\n <td><input type=\"text\" name=\"ProfileEditPassword1\" size=\"30\" value=\"$ProfileEditPassword\" STYLE=\"bgcolor:$gConfBGInterface;\"".$noedit."></td>\n</tr>\n";
+				print "<tr bgcolor=\"$gConfBGInterface\">\n <td CLASS=\"logbox\" align=\"center\" colspan=\"2\"><input type=\"image\" src=\"images/submit.gif\" BORDER=\"0\"></td>\n</tr>\n</table></TD></TR></TABLE></form>\n";
 
                                 }
 
