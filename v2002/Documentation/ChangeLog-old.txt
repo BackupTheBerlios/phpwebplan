@@ -1,0 +1,264 @@
+2002/05/08-23:20:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0) (V2)
+
+	- CVS re-checkin to "/cvsroot/phpwebplan/V2"
+	- checkin successfully applied
+
+2002/05/08-22:57:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0) (V2)
+
+	- updated "docs/FAQ" and "docs/TESTED_WITH"
+	- removed "cvs" subdirectories, ready for re-checkin
+	- checkin to new cvs path ("cvsroot/phpwebplan/V2")
+
+2002/05/08-19:21:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0)
+
+        - New list all user function, now listing all variables you want to list from profile ;)
+        - code cleanup
+        - template updates :)
+
+personal note:
+                                                                                                                              
+So, I was last Monday with the dentist.                                                                                       
+Two teeth were pulled to me and I have still toothache.
+I will continue to work on phpWebPlan.
+
+/* translation powered by google.com */
+
+
+2002/04/26-21:21:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0)
+
+        - YEEEEEEEEEEEES!!! UserEditor are working now. :)
+        - new admin CP 'll be included in 0.3.1 :(
+
+        ** I have strong toothache and can therefore not continue to work.
+
+        THANKS TO: john,(john@in-panik.net), he helped me debugging :)
+
+2002/04/24-19:12:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0)
+
+        - extracting stylesheet data to CSS files :)
+          
+
+2002/04/22-19:40:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0)
+
+		- added Admin CP structure
+		- added Admin CP basic files (ONLY FOR DEVELOPMENT, WILL BE REMOVED LATER!!!) 
+		- moved "phpWebPlanAdmin.php" to "/admin/phpWebPlanAdmin.php"
+		- "recruited" new translator for languages finnish (fi) & italian (it)
+
+        IN PROGRESS / TODO:
+				- Admin CP
+                                - User CP
+                                - re-structure
+                                - re-design
+                                - extraction of "ListAll" feature to a function
+                                - much more to go :)
+
+        NOTE: 0.3.0 still in progress
+
+
+2002/04/18-04:44:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0)
+
+		- removed phpWebPlanUser.php
+		- added phpWebPlanSignup.php & phpWebPlanEditor.php
+		- extracted "you moron where is..." to language file
+		- added global variable for "failure" messages
+		- added Chinese and Russian translator to "docs/LANGUAGES"
+		- fixed links at "$gSearchBox"
+		- changed $LocalPath to getcwd()
+		- some small structure changes
+		- added $gScriptUserEditor & $gScriptUserSignup to "phpWebPlanConfig.php"
+
+ 	IN PROGRESS / TODO:
+				- User CP
+				- re-structure
+				- re-design
+				- extraction of "ListAll" feature to a function
+				- much more to go :)
+	
+	NOTE: redesign in progress
+
+	THANKS TO: Groovetech.com for this great Drum & Bass Session :)
+
+2002/03/06-23:40:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.2.43)
+
+	Two month are done, nothing more.
+
+		- some structure changes, not really enough to list here.
+		- text file updates in "/docs"
+
+2002/01/10-22:51:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.2.42)
+
+	+ themes/ checked in to CVS
+	+ include/, images/ and templates/ removed from CVS
+
+	TODO:
+		- UserEditor.
+		- exporting some code parts to the function file.
+		- code re-design.
+		- structure
+		- config update
+		- Admin CP update, more sections, more functions, more dynamic.
+
+Note: Thanks to Rebecka from Norway and Jaap from Netherlands for giving me the 
+----- hope back that people needs my software. At the moment I am a little bit
+      afraid about my life and I trying to find out which benefits to my life 
+      opensource 'll give me.
+
+2002/01/07-14:49:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.2.23)
+
+	One month is done, but nothing more.
+
+	+ added TODO
+	+ downgraded "phpWebPlanUser.php" to version of 0.2.7-dev release
+	+ language update
+	+ template update
+	+ docs update
+	+ themes support added
+	
+2001/12/03-07:06:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS)
+
+	Ok, the usereditor isn't finished yet ...
+	I starting by now the complete code rewrite ...
+	
+	Sorry, I hope I can finish it before 6th December 2001. ;)
+
+	Well, my code suck ... it suck *booohoohoo* ... it suck ;((((((((
+	
+2001/12/01-05:00:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS)
+
+	+ "phpWebPlanUser": User editor done, but I can't find the runtime bug :((( *suck*
+
+2001/12/01-01:59:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS)
+
+	+ removed templates from CVS, structure change begin
+	+ add german translation (lang/de.php)
+	+ moved "TRANSLATORS" and "PLAN" files to Documentation directory (docs/)
+	+ some bugfixes at "phpWebPlanConfig.php"
+
+	PLAN:
+	
+	- starting template structure re-design
+	- finished german translation
+	
+2001/11/30-12:37:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS)
+ 
+        + CVS checkin
+
+2001/11/20-04:02:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.2.5-dev)
+
+	+ added "show" and "edit" to the "all users list".
+	+ "List All User" function added. (?Content=ListAllUser & ?Content=ListAllUserInclude) 
+	+ "$gScriptUser"-Bug at "$gScriptAdmin" fixed.
+	+ removed "Roadmap" listing from "include/include_About.html".
+	+ removed some altered code from "$gScriptAdmin".
+	+ moved a function from "$gScriptAdmin" to "phpWebPlanFunction.php".
+ 
+	Thanks to koaps@2nutz.com for his comment on the PHP Manual[dir()] at php.net, it helped me understanding. ;)
+
+ 2001/09/26-05:11:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.2.5-dev)
+
+	+ "edit" button included at profile viewer.
+	+ User Signup & Login finished.
+	+ phpWebPlanUserSignup.php moved to phpWebPlanUser.php .
+
+	TODO:
+
+	+ Userprofile Editor.
+	+ Multi-Language ability.
+	+ Complete code cleanup (rewrite).
+
+ 2001/09/25-10:00:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.2.1)
+
+	+ phpWebPlanUserSignup.php finished
+	+ User Signup added to phpWebPlanAdmin
+	+ template section added to phpWebPlanAdmin
+	+ templates now have a ".php" extension
+	+ preparing phpWebPlan for Multi-Language Support ;)
+	+ showing now "real" and "config" LocalPath at phpWebPlanAdmin.
+	+ Security Hole at "phpWebPlanAdmin.php" fixed.
+	+ some tiny changes, not important enough for list each alone. ;)
+
+ 2001/07/14-01:02:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.61 aka 0.2.0-pre2)
+	
+	+ Userprofiles now named "$DefaultUserPlan.$pUser.php"
+	+ Bug (at Admin Login) in phpWebPlanAdmin.php are now fixed.
+ 
+ 2001/07/09-05:06:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.59 aka 0.2.0-pre1)
+
+	+ fixed some "double-definitions" at phpWebPlanConfig.php
+	+ Changed "Admin Login" from PHP_AUTHOR (like .htaccess) to a login form
+	-> I got some problems with my Apache/Win32s. ;(
+	+ Added Admin Login & User Login Template
+
+ 2001/05/05-01:16:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.56)
+
+	+ fixed some write mistakes at phpWebPlanAdmin.php
+	+ changed require at phpWebPlanAdmin.php & phpWebPlan.php
+	+ moved _phpWebPlan.conf.inc -> phpWebPlanConfig.php 
+	-> with this action a security hole was fixed.
+
+ 2001/04/30-23:59:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.54)
+
+	+ added three new options -> phpWebPlanAdmin.php
+	+ bugfix (phpWebPlanAdmin.php): fixed $ginc:* "changed messages"
+	+ added "Not found" message to Item:Content:Help, Item:Content:About
+	+ added new config_vars to "$gDefaultUserPlan"
+	+ bugfix: at $gSearchBox was a $PHP_SELF variable set,
+	  the error was that by accessing phpWebPlanAdmin you get wrong
+ 	  links at the Menu. $PHP_SELF changed to $gScriptMain.
+
+	+ added "Where is my SearchBox template?" ;)
+	+ added file_exists at Item:Content:ChangeLog
+	+ added two new options -> phpWebPlanAdmin.php
+	+ added two new config_vars -> _phpWebPlan.conf.inc
+
+-- version jump from 0.1.38 to 0.1.54--
+
+ 2001/04/29-16:10:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.38)
+
+        + extended Admin Interface
+        + extracted Item:Content:Config -> phpWebPlanAdmin.php
+        + added phpWebPlanAdmin.php (Administration Interface phpWebPlan)
+        + added $gScriptMain & $gScriptAdmin to _phpWebPlan.conf.inc
+
+        TODO:
+
+        + User Profile Administration Interface
+
+ 2001/04/29-06:00:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.32)
+
+ global:
+
+	+ changed global:Design:Color, now it's blue overall.
+ 
+ templates/SearchBox-Default.template
+
+	+ added Item:SearchBox:Menu:Changes 
+	+ removed link to "Administration Interface"
+
+ templates/Profile-Default.template
+
+	+ it tests now the "$Profile:*" variables.
+	+ changed static content like i.e. "BGCOLOR" -> $pBGCOLOR
+
+ phpWebPlan.php:
+
+	+ added Item:Content:ChangeLog 
+	+ added at Item:Content:Help -> require ("$incHelp").
+	+ added at Item:Content:About -> require ("$incAbout").
+ 	+ extracted Item:Content:About to "include/include_About.inc".
+
+ _phpWebPlan.conf.inc:
+
+	+ required structure changes.
+
+
+ structure: 
+
+	+ "docs/" removed. 
+	+ "docs/Help.html" moved to "/include/include_Help.inc".
+ 
+
+ 2001/04/27-06:38:06+0200 - Tobias Mathes, tobi@ideenpark.de - (0.1.0)
+
+	+ intial release.

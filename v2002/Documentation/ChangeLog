@@ -1,0 +1,15 @@
+2002/11/XX-XX:XX:XX+0200 - Tobias Mathes, tobi@ideenpark.de - (0.5.0-CVS) 
+
+I do still 
+- rewriting template code
+- adding MySQL support
+
+- changed "License" option
+
+
+2002/10/21-12:20:00+0200 - Tobias Mathes, tobi@ideenpark.de - (0.5.0-CVS)
+
+- added new variables for lang file at phpWebPlanConfig.php
+- added and modified variables at $gUserSignup template
+- embedding MySQL support to $gScriptUserSignup
+- updated phpWebPlanFunction.php with new functions for MySQL

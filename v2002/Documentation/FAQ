@@ -1,0 +1,30 @@
+last-edit: 2002/05/11-22:49; id: docs/FAQ; Author: Tobias Mathes, tobias@mathes.biz;
+
+Q: Why the hell the UserEditor doesn't work?
+A: Sure, it does work. Please upgrade to 0.3.0-RC1 or higher.
+
+Q: What do I need?
+A: You need a webserver that have PHP4 support, not more not less. ;)
+
+Q: Why you don't use MySQL?
+A: Well, the most PHP projects on this planet using MySQL. Why should I do?!
+A: Versions higher than 0.5.0 will support databases.
+
+Q: What about LDAP support?
+A: It'll be supported in future versions, believe me. :)
+
+Q: Can I modify or add items to the Userprofiles?
+A: No, at the moment not. This option has a lower priority, sorry.
+
+Q: Last question, inside the realese in near future?
+A: mhh .. no, not really ... 
+
+Q: The ListAllUser function really suck, why i.e. the names of 
+Q: the people are not listed?
+A: This function is re-implemtend in 0.5.0 or higher. 
+A: It's now really impressive :)
+
+Q: How I can translate phpWebPlan to my language?
+A: Simply easy, just copy the "lang/en.php" to "lang/<your_lang_isocode>.php", then translate
+A: and send that file (compressed by GNU gzip) to "tobias@mathes.biz" with subject 
+A: "phpWebPlan: <my language> translation".

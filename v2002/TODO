@@ -1,0 +1,8 @@
+0.5.0:
+
+- finish MySQL version
+- optimize ListAll function in both versions
+- clean up templates
+- make better CSS support for templates
+- finish AdminCP
+- write install.php for easier install
