@@ -1,3 +1,5 @@
+--- OLD CHANGELOG, rewrite begins here ----
+
 2002/05/08-23:20:00+0200 - Tobias Mathes, tobi@ideenpark.de - (CVS-0.3.0) (V2)
 
 	- CVS re-checkin to "/cvsroot/phpwebplan/V2"
